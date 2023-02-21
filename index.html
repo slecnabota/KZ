@@ -20,8 +20,8 @@
                     <div class="header-logo">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
-                    <nav class="header-nav">
-                        <a href="#services" class="lng-link1">услуги</a>
+                    <nav class="header-nav" id="menu">
+                        <a href="#services">услуги</a>
                         <a href="#about">о нас</a>
                         <a href="#contacts">контакты</a>
                     </nav>
@@ -59,9 +59,9 @@
             </div>
             <div class="header__mobile">
                 <div class="header__mobile-wrapper">
-                    <a href="#services">услуги</a>
-                    <a href="#about">о нас</a>
-                    <a href="#contacts">контакты</a>
+                    <a href="#services" class="close">услуги</a>
+                    <a href="#about" class="close2">о нас</a>
+                    <a href="#contacts" class="close3">контакты</a>
                     <div class="header-languages">
                         <div class="custom-select" style="width:60px;">
                             <select>
@@ -757,7 +757,7 @@
                 </div>
             </div>
         </section>
-        <section class="types">
+        <section class="types" id="services">
             <div class="container">
                 <div class="types-wrapper">
                     <div class="types-title title wow animate__animated animate__fadeInDown">
@@ -835,7 +835,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-wrapper">
                     <div class="about-text wow animate__animated animate__fadeInLeft">
@@ -930,7 +930,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <h1 class="contacts-title title wow animate__animated animate__fadeInDown">Наши контакты</h1>
                 <div class="contacts-wrapper">
@@ -1051,6 +1051,7 @@
     <script src="js/menu.js"></script>
     <script src="js/quest.js"></script>
     <script src="js/switch.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/tab.js"></script>
     <script src="js/test.js"></script>
     <script src="js/lang.js"></script>
