@@ -19,7 +19,7 @@
                     <div class="header-logo">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
-                    <nav class="header-nav">
+                    <nav class="header-nav" id="menu">
                         <a href="#services" class="lng-link1">қызметтер</a>
                         <a href="#about">біз туралы</a>
                         <a href="#contacts">байланыстар</a>
@@ -58,9 +58,9 @@
             </div>
             <div class="header__mobile">
                 <div class="header__mobile-wrapper">
-                    <a href="#services">қызметтер</a>
-                    <a href="#about">біз туралы</a>
-                    <a href="#contacts">байланыстар</a>
+                    <a href="#services" class="close">қызметтер</a>
+                    <a href="#about" class="close2">біз туралы</a>
+                    <a href="#contacts" class="close3">байланыстар</a>
                     <div class="header-languages">
                         <div class="custom-select" style="width:60px;">
                             <select>
@@ -645,7 +645,7 @@
                 </div>
             </div>
         </section>
-        <section class="types">
+        <section class="types" id="services">
             <div class="container">
                 <div class="types-wrapper">
                     <div class="types-title title">
@@ -722,7 +722,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-wrapper">
                     <div class="about-text">
@@ -808,7 +808,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <h1 class="contacts-title title">Наши контакты</h1>
                 <div class="contacts-wrapper">
@@ -925,6 +925,7 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/app.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/quest.js"></script>
